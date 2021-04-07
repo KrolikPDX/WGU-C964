@@ -28,7 +28,9 @@ Unfortunatley GitHub does not allow an upload of 100+ files or anything greater 
 4. Run the simulator with any selected iOS simulated device.
 
 #### Notes
-- When the application attempts to display the image of a pokemon, it will search for the name of the image through the Assets folder. The image dataset we use named the images to the coresponding pokemon's PokeDex number. However, the dataset may have some images titled as '208-mega.jpg' instead of just '208.jpg'. This will throw an error as image '208.jpg' does not exist. To fix this, go through the dataset in XCode by going to `Assets>Assets.xcassets`, drop down the `pokemon` folder, and make duplicates of any pokemon image that doesn't have an image in the 'xxx.jpg' format. 
+- When the application attempts to display the image of a pokemon, it will search for the name of the image through the Assets folder. The image dataset we use named the images to the coresponding pokemon's PokeDex number. However, the dataset may have some images titled as '208-mega.jpg' instead of just '208.jpg'. This will throw an error as image '208.jpg' does not exist. To fix this, go through the dataset in XCode by going to `Assets>Assets.xcassets`, drop down the `pokemon` folder, and make duplicates of any pokemon image that doesn't have an image in the 'xxx.jpg' format as seen below. 
+
+<div style="width: 1000px; height 600px;"><img src="Screen Shot 2021-04-07 at 4.47.01 PM.png" width="30%" height="30%" align="right"></div>
 
 ## Acknowledgements
 Pokemon stats and images were derived from:
