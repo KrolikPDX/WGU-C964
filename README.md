@@ -1,7 +1,6 @@
 # iOS-PokemonSelector
-
-## Introduction
 This is a capstone project for the C964 course provided by WGU. 
+
 
 ## Overview
 iOS-PokemonSelector is an app that will select the best suited pokemon based on your answers to selected questions. There are a total of 6 questions that the user may answer. Each question has a weight slider which the user can use to add importance level to an answer. For example if the user values resistance to a certain damage type, they can increase the weight for that question. 
